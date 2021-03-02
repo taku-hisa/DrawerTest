@@ -38,6 +38,11 @@ android {
 }
 
 dependencies {
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.3.0"
+
     //Rounded Image View
     implementation "com.makeramen:roundedimageview:2.3.0"
 
